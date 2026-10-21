@@ -5,7 +5,7 @@ description: Add a timetable adapter and reviewed campus data to the shared Gapw
 
 Gapwise has one web application in `gapwise`. The manifest selects an institution by hostname. Timetable adapters return the shared meeting model; Today, Timetable, Gap Plan, Campus Map, and Day Route consume that model and the selected campus catalog. University facts and routing evidence belong in `data`.
 
-Gapwise currently supports 28 universities: University of Toronto (`uoft.gapwise.ca`), Carleton University (`carleton.gapwise.ca`), Toronto Metropolitan University (`tmu.gapwise.ca`), Queen's University (`queens.gapwise.ca`), Wilfrid Laurier University (`laurier.gapwise.ca`), York University (`york.gapwise.ca`), McMaster University (`mcmaster.gapwise.ca`), Western University (`western.gapwise.ca`), University of Guelph (`guelph.gapwise.ca`), University of Ottawa (`uottawa.gapwise.ca`), Brock University (`brock.gapwise.ca`), University of British Columbia (`ubc.gapwise.ca`), University of Waterloo (`waterloo.gapwise.ca`), McGill University (`mcgill.gapwise.ca`), Carnegie Mellon University (`cmu.gapwise.ca`), University of California, Berkeley (`ucberkeley.gapwise.ca`), New York University (`nyu.gapwise.ca`), Massachusetts Institute of Technology (`mit.gapwise.ca`), Stanford University (`stanford.gapwise.ca`), University of Pennsylvania (`upenn.gapwise.ca`), Cornell University (`cornell.gapwise.ca`), Dartmouth College (`dartmouth.gapwise.ca`), Brown University (`brown.gapwise.ca`), Columbia University (`columbia.gapwise.ca`), Princeton University (`princeton.gapwise.ca`), Yale University (`yale.gapwise.ca`), Harvard University (`harvard.gapwise.ca`), and Sorbonne Université (`sorbonne.gapwise.ca`). All editions are built from the unified `gapwise` and `data` codebase.
+Gapwise currently supports 38 universities: University of Toronto (`uoft.gapwise.ca`), Carleton University (`carleton.gapwise.ca`), Toronto Metropolitan University (`tmu.gapwise.ca`), Queen's University (`queens.gapwise.ca`), Wilfrid Laurier University (`laurier.gapwise.ca`), York University (`york.gapwise.ca`), McMaster University (`mcmaster.gapwise.ca`), Western University (`western.gapwise.ca`), University of Guelph (`guelph.gapwise.ca`), University of Ottawa (`uottawa.gapwise.ca`), Brock University (`brock.gapwise.ca`), University of British Columbia (`ubc.gapwise.ca`), University of Waterloo (`waterloo.gapwise.ca`), McGill University (`mcgill.gapwise.ca`), Carnegie Mellon University (`cmu.gapwise.ca`), University of California, Berkeley (`ucberkeley.gapwise.ca`), New York University (`nyu.gapwise.ca`), Massachusetts Institute of Technology (`mit.gapwise.ca`), Stanford University (`stanford.gapwise.ca`), University of Pennsylvania (`upenn.gapwise.ca`), Cornell University (`cornell.gapwise.ca`), Dartmouth College (`dartmouth.gapwise.ca`), Brown University (`brown.gapwise.ca`), Columbia University (`columbia.gapwise.ca`), Princeton University (`princeton.gapwise.ca`), Yale University (`yale.gapwise.ca`), Harvard University (`harvard.gapwise.ca`), and Sorbonne Université (`sorbonne.gapwise.ca`). All editions are built from the unified `gapwise` and `data` codebase.
 
 ## Create a scaffold
 
@@ -41,3 +41,16 @@ gapwise university dev example-university
 Run the `gapwise` typecheck, lint, unit tests, production build, and browser tests. Check desktop and mobile map selection, timetable import, Today, gap calculations, and route states. The local development URL uses `?university=tmu`; production host resolution uses the manifest. Configure DNS and the hosting provider for `tmu.gapwise.ca`, then verify the preview and live host before announcing support.
 
 Changes to Today, TimetableGrid, GapPlan, CampusMap, DayRoute, shared navigation, or global CSS should be justified as product-wide changes. Adding another institution ordinarily changes the manifest, adapter, data, fixtures, and deployment configuration only.
+
+## Additional supported university editions
+
+- **University of Oxford** (`oxford.gapwise.ca`) — University of Oxford
+- **University of Cambridge** (`cambridge.gapwise.ca`) — University of Cambridge
+- **Imperial College London** (`imperial.gapwise.ca`) — Imperial College South Kensington Campus, Imperial College White City Campus
+- **ETH Zürich** (`ethz.gapwise.ca`) — ETH Zürich Zentrum Campus, ETH Zürich Hönggerberg Campus
+- **California Institute of Technology** (`caltech.gapwise.ca`) — California Institute of Technology
+- **Johns Hopkins University** (`jhu.gapwise.ca`) — Johns Hopkins Homewood Campus, Johns Hopkins East Baltimore Medical Campus
+- **EPFL** (`epfl.gapwise.ca`) — EPFL Campus Lausanne
+- **University College London** (`ucl.gapwise.ca`) — UCL Bloomsbury Campus, UCL East Campus
+- **University of Tokyo** (`utokyo.gapwise.ca`) — University of Tokyo Hongo Campus, University of Tokyo Komaba Campus, University of Tokyo Kashiwa Campus
+- **Tsinghua University** (`tsinghua.gapwise.ca`) — Tsinghua University Main Campus

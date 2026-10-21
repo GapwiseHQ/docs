@@ -16,7 +16,7 @@ Gapwise is an independent, open-source student platform created by Andrew Murato
 While existing institutional portals typically end at exporting calendar blocks or displaying static PDF campus maps, Gapwise connects student schedules to verified campus geometry:
 - **True Usable Time**: Automatically deducts walking travel time, room transition buffers, and meal periods from raw breaks to show true productive study windows.
 - **Pedestrian Navigation**: Computes outdoor walking routes between verified campus building entrances, including step-free accessibility options.
-- **Multi-University Scale**: Supports **28 universities and 74 campus models**, mapping academic buildings, source-classified entrances, student places, and 199 university residences.
+- **Multi-University Scale**: Supports **38 universities and 90 campus models**, mapping academic buildings, source-classified entrances, student places, and 199 university residences.
 
 ---
 
@@ -32,7 +32,7 @@ Gapwise was engineered from day one to demonstrate that student software can be 
 
 ## Platform Scope & University Coverage
 
-Gapwise currently serves 28 universities across 74 campus models with dedicated, edition-specific web portals:
+Gapwise currently serves 38 universities across 90 campus models with dedicated, edition-specific web portals:
 
 | University | Campus Model(s) | Status | Edition URL |
 | :--- | :--- | :---: | :--- |
@@ -136,3 +136,16 @@ Gapwise welcomes non-bureaucratic, collaborative engagement with university grou
 - **Developer Documentation**: [`https://docs.gapwise.ca`](https://docs.gapwise.ca)
 - **GitHub Organization**: [`https://github.com/GapwiseHQ`](https://github.com/GapwiseHQ)
 - **Printable Single-Page PDF Brief**: [`https://gapwise.ca/institutional-brief.html`](https://gapwise.ca/institutional-brief.html)
+
+## Additional supported university editions
+
+- **University of Oxford** (`oxford.gapwise.ca`) — University of Oxford
+- **University of Cambridge** (`cambridge.gapwise.ca`) — University of Cambridge
+- **Imperial College London** (`imperial.gapwise.ca`) — Imperial College South Kensington Campus, Imperial College White City Campus
+- **ETH Zürich** (`ethz.gapwise.ca`) — ETH Zürich Zentrum Campus, ETH Zürich Hönggerberg Campus
+- **California Institute of Technology** (`caltech.gapwise.ca`) — California Institute of Technology
+- **Johns Hopkins University** (`jhu.gapwise.ca`) — Johns Hopkins Homewood Campus, Johns Hopkins East Baltimore Medical Campus
+- **EPFL** (`epfl.gapwise.ca`) — EPFL Campus Lausanne
+- **University College London** (`ucl.gapwise.ca`) — UCL Bloomsbury Campus, UCL East Campus
+- **University of Tokyo** (`utokyo.gapwise.ca`) — University of Tokyo Hongo Campus, University of Tokyo Komaba Campus, University of Tokyo Kashiwa Campus
+- **Tsinghua University** (`tsinghua.gapwise.ca`) — Tsinghua University Main Campus
