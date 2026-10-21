@@ -55,7 +55,7 @@ curl https://api.gapwise.ca/v1/universities
 curl https://api.gapwise.ca/v1/campuses
 ```
 
-Gapwise supports 28 universities and 74 campus models. Query parameters `university` (default `uoft`) and `campus` (default `utm`) scope building and routing calls.
+Gapwise supports 38 universities and 90 campus models. Query parameters `university` (default `uoft`) and `campus` (default `utm`) scope building and routing calls.
 
 ### List campus buildings
 

@@ -30,7 +30,7 @@ hostname -> universities.json -> university timetable adapter -> shared meetings
 data/universities/<id>/campus.json -> campus catalog + path graph -> shared UI/routing
 ```
 
-Gapwise resolves hostnames dynamically: `uoft.gapwise.ca` (and `gapwise.ca`) selects U of T, `carleton.gapwise.ca` selects Carleton, `tmu.gapwise.ca` selects TMU, `queens.gapwise.ca` selects Queen's, `laurier.gapwise.ca` selects Laurier, `york.gapwise.ca` selects York, `mcmaster.gapwise.ca` selects McMaster, `western.gapwise.ca` selects Western, `guelph.gapwise.ca` selects Guelph, `uottawa.gapwise.ca` selects uOttawa, `brock.gapwise.ca` selects Brock, `ubc.gapwise.ca` selects UBC, `waterloo.gapwise.ca` selects Waterloo, `mcgill.gapwise.ca` selects McGill, `cmu.gapwise.ca` selects CMU, `ucberkeley.gapwise.ca` selects UC Berkeley, `nyu.gapwise.ca` selects NYU, `mit.gapwise.ca` selects MIT, `stanford.gapwise.ca` selects Stanford, `upenn.gapwise.ca` selects UPenn, `cornell.gapwise.ca` selects Cornell, `dartmouth.gapwise.ca` selects Dartmouth, `brown.gapwise.ca` selects Brown, `columbia.gapwise.ca` selects Columbia, `princeton.gapwise.ca` selects Princeton, `yale.gapwise.ca` selects Yale, `harvard.gapwise.ca` selects Harvard, and `sorbonne.gapwise.ca` selects Sorbonne Université. See [Add a university](/guides/add-university/) for the scaffold, data, testing, and deployment workflow.
+Gapwise resolves hostnames dynamically: `gapwise.ca` serves the global landing page, `uoft.gapwise.ca` selects U of T, `carleton.gapwise.ca` selects Carleton, `tmu.gapwise.ca` selects TMU, `queens.gapwise.ca` selects Queen's, `laurier.gapwise.ca` selects Laurier, `york.gapwise.ca` selects York, `mcmaster.gapwise.ca` selects McMaster, `western.gapwise.ca` selects Western, `guelph.gapwise.ca` selects Guelph, `uottawa.gapwise.ca` selects uOttawa, `brock.gapwise.ca` selects Brock, `ubc.gapwise.ca` selects UBC, `waterloo.gapwise.ca` selects Waterloo, `mcgill.gapwise.ca` selects McGill, `cmu.gapwise.ca` selects CMU, `ucberkeley.gapwise.ca` selects UC Berkeley, `nyu.gapwise.ca` selects NYU, `mit.gapwise.ca` selects MIT, `stanford.gapwise.ca` selects Stanford, `upenn.gapwise.ca` selects UPenn, `cornell.gapwise.ca` selects Cornell, `dartmouth.gapwise.ca` selects Dartmouth, `brown.gapwise.ca` selects Brown, `columbia.gapwise.ca` selects Columbia, `princeton.gapwise.ca` selects Princeton, `yale.gapwise.ca` selects Yale, `harvard.gapwise.ca` selects Harvard, and `sorbonne.gapwise.ca` selects Sorbonne Université. See [Add a university](/guides/add-university/) for the scaffold, data, testing, and deployment workflow.
 
 ## Source-of-truth flow
 
@@ -115,3 +115,16 @@ Before calling an ecosystem change complete, check whether it affects:
 - privacy, security, accessibility, attribution, or source-of-truth statements.
 
 Connected does not mean duplicated: every surface should know how it relates to the others while preserving clear ownership.
+
+## Additional supported university editions
+
+- **University of Oxford** (`oxford.gapwise.ca`) — University of Oxford
+- **University of Cambridge** (`cambridge.gapwise.ca`) — University of Cambridge
+- **Imperial College London** (`imperial.gapwise.ca`) — Imperial College South Kensington Campus, Imperial College White City Campus
+- **ETH Zürich** (`ethz.gapwise.ca`) — ETH Zürich Zentrum Campus, ETH Zürich Hönggerberg Campus
+- **California Institute of Technology** (`caltech.gapwise.ca`) — California Institute of Technology
+- **Johns Hopkins University** (`jhu.gapwise.ca`) — Johns Hopkins Homewood Campus, Johns Hopkins East Baltimore Medical Campus
+- **EPFL** (`epfl.gapwise.ca`) — EPFL Campus Lausanne
+- **University College London** (`ucl.gapwise.ca`) — UCL Bloomsbury Campus, UCL East Campus
+- **University of Tokyo** (`utokyo.gapwise.ca`) — University of Tokyo Hongo Campus, University of Tokyo Komaba Campus, University of Tokyo Kashiwa Campus
+- **Tsinghua University** (`tsinghua.gapwise.ca`) — Tsinghua University Main Campus

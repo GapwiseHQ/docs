@@ -25,9 +25,9 @@
 
 This repository is the canonical public developer-documentation surface for **Gapwise**, a free and open-source multi-university timetable and campus-intelligence platform created and engineered by **Andrew Muratov**.
 
-Gapwise currently supports **28 universities across 74 campus models**:
+Gapwise currently supports **38 universities across 90 campus models**:
 
-1. **University of Toronto** (`uoft.gapwise.ca`, also `gapwise.ca`) — Mississauga, St. George, and Scarborough
+1. **University of Toronto** (`uoft.gapwise.ca`, with campus editions at `utm.gapwise.ca`, `utsg.gapwise.ca`, and `utsc.gapwise.ca`) — Mississauga, St. George, and Scarborough
 2. **Carleton University** (`carleton.gapwise.ca`) — Ottawa Campus, Dominion-Chalmers Centre
 3. **Toronto Metropolitan University** (`tmu.gapwise.ca`) — Downtown Toronto Campus, Brampton Campus
 4. **Queen's University** (`queens.gapwise.ca`) — Kingston Campus, West Campus
@@ -55,6 +55,16 @@ Gapwise currently supports **28 universities across 74 campus models**:
 26. **Yale University** (`yale.gapwise.ca`) — Central Campus, School of Medicine, West Campus
 27. **Harvard University** (`harvard.gapwise.ca`) — Cambridge Campus, Allston Campus, Longwood Medical Area
 28. **Sorbonne Université** (`sorbonne.gapwise.ca`) — Pierre et Marie Curie, Sorbonne, Pitié-Salpêtrière, Saint-Antoine, Cordeliers, Clignancourt, Malesherbes
+29. **University of Oxford** (`oxford.gapwise.ca`) — University of Oxford
+30. **University of Cambridge** (`cambridge.gapwise.ca`) — University of Cambridge
+31. **Imperial College London** (`imperial.gapwise.ca`) — Imperial College South Kensington Campus, Imperial College White City Campus
+32. **ETH Zürich** (`ethz.gapwise.ca`) — ETH Zürich Zentrum Campus, ETH Zürich Hönggerberg Campus
+33. **California Institute of Technology** (`caltech.gapwise.ca`) — California Institute of Technology
+34. **Johns Hopkins University** (`jhu.gapwise.ca`) — Johns Hopkins Homewood Campus, Johns Hopkins East Baltimore Medical Campus
+35. **EPFL** (`epfl.gapwise.ca`) — EPFL Campus Lausanne
+36. **University College London** (`ucl.gapwise.ca`) — UCL Bloomsbury Campus, UCL East Campus
+37. **University of Tokyo** (`utokyo.gapwise.ca`) — University of Tokyo Hongo Campus, University of Tokyo Komaba Campus, University of Tokyo Kashiwa Campus
+38. **Tsinghua University** (`tsinghua.gapwise.ca`) — Tsinghua University Main Campus
 
 The documentation describes the multi-university architecture, public campus API, SDKs, data layers, and permissioned AI/MCP integration without presenting Gapwise as a single-institution product.
 
